@@ -6,7 +6,7 @@ const router = Router();
 
 /**
  * @openapi
- * /domains:
+ * /v1/domains:
  *  post:
  *    tags:
  *      - v1

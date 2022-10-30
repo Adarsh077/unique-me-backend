@@ -6,7 +6,7 @@ const router = Router();
 
 /**
  * @openapi
- * /social-media/{platform}:
+ * /v1/social-media/{platform}:
  *  post:
  *    tags:
  *      - v1
