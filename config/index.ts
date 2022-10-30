@@ -10,6 +10,7 @@ const config: IConfig = {
   GODADDY_API_KEY: process.env.GODADDY_API_KEY ?? '',
   GODADDY_API_SECRET: process.env.GODADDY_API_SECRET ?? '',
   GODADDY_BASEURL: process.env.GODADDY_BASEURL ?? '',
+  PROD_BASE_URL: process.env.PROD_BASE_URL ?? '',
 };
 
 export default config;
