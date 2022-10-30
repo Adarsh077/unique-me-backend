@@ -6,8 +6,17 @@ const swaggerDefinition: SwaggerDefinition = {
   info: {
     title: 'Backend Api doc for Unique Me',
     version: '0.0.1-alpha',
-    description:
-      'Unique Me is a platform where anyone can check the availability of a username across multiple social media platforms or domain names with just one click',
+    description: `Unique Me is a platform where anyone can check the availability of a username across multiple social media platforms or domain names with just one click.
+    
+    ## Local Installation
+
+    git clone https://github.com/Adarsh077/unique-me-backend.git
+    cd unique-me-backend
+    npm i
+    npm run dev
+
+    
+    `,
     license: {
       name: 'Licensed Under MIT',
       url: 'https://spdx.org/licenses/MIT.html',
@@ -24,7 +33,7 @@ const swaggerDefinition: SwaggerDefinition = {
     },
     {
       url: config.PROD_BASE_URL,
-      description: 'Production server',
+      description: 'Production server (Disabled)',
     },
   ],
 };
