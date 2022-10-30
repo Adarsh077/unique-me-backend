@@ -30,7 +30,7 @@ const router = Router();
  *        description: Name of the platform to perform search on
  *        schema:
  *          type: string
- *          enum: [ "instagram", "facebook", "reddit"]
+ *          enum: [ "instagram", "facebook", "reddit", "youtube", "twitter", "twitch", "github"]
  *    responses:
  *      200:
  *        description: Availablity Status
