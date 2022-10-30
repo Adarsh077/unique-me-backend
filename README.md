@@ -1,1 +1,3 @@
-### Jam Room Backend
+### Unique Me Api
+
+#### [Documentation](https://api.uniqueme.ml/docs)
