@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 
 class PuppeteerService {
   private launchBrowser = async () => {
-    return await puppeteer.launch({ headless: false });
+    return await puppeteer.launch({ headless: true });
   };
 
   /**

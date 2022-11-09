@@ -24,5 +24,4 @@ export interface IDomainError {
   path?: string;
 }
 
-export { default as ITodo } from './todo.interface';
 export { default as IConfig } from './config.interface';
